@@ -8,4 +8,166 @@
   margin: 0;
   box-sizing: border-box;
   left: 0;
+  font-family:"lato", sans-serif;
+}
+
+body {
+  width: 98vw;
+}
+
+.social-head {
+  display: none;
+}
+
+.hamb {
+  display: flex;
+  justify-content: space-between;
+}
+
+#ham {
+  margin-left: 4%;
+}
+
+#close {
+  display: none;
+  margin-left: 4%;
+}
+
+.pages {
+  background: var(--first);
+  z-index: 10;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  display: none;
+}
+
+.uon-logo-f {
+  display: none;
+}
+
+.pages a {
+  margin-top: 5%;
+  color: var(--third);
+  text-decoration: none;
+}
+
+.first {
+  padding-top: 10%;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+
+.intro h3 {
+  font-size: 140%;
+  color: var(--second);
+  line-height: 30px;
+}
+
+.title {
+  font-size: 300%;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: var(--second);
+}
+
+.short-info {
+  margin-top: 7%;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--third);
+  background: grey;
+  border: 2px solid green;
+  padding: 3%;
+}
+
+.date {
+  margin-top: 7%;
+  font-size: 200%;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: var(--first);
+  line-height: 40px;
+}
+
+.location {
+  margin-top: 1%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--third);
+}
+
+.second {
+  background: var(--first);
+  color: var(--third);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+hr {
+  width: 10%;
+  background: var(--second);
+}
+
+.programs div {
+  background: rgba(128, 128, 128, 0.3);
+  margin: 4%;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.programs div > i {
+  width: 10%;
+}
+
+.programs div > h2 {
+  color: var(--second);
+  margin-right: 10px;
+  width: 20%;
+}
+
+.programs div > p {
+  width:60%;
+  padding: 4%;
+  line-height: 1.4rem;
+}
+
+.see-more {
+  text-align: center;
+  margin: 5% 10%;
+  width: 80%;
+  font-size: 1.3rem;
+  background: var(--second);
+  color: #d3d3d3;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.see-less {
+  display: none;
+}
+
+.more-mob {
+  margin: 5% 3%;
+  width: 94%;
+  font-size: 1.2rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: var(--third);
+  border: 2px solid var(--third);
+}
+
+.more-mob i {
+  color: var(--second);
+  margin-left: 2%;
+}
+
+.sponsors {
+  display: none;
 }

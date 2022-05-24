@@ -20,9 +20,17 @@
       <h4>My Page</h4>
       <h4>Logout</h4>
     </div>
-    <div class="pages">
-      <img src="./imgs/uonlogo.png" alt="University of nairobi Logo">
-        <a href="#">About</a>
+    <div class="hamb">
+      <!-- <span class="ham-btn"></span>
+      <span class="ham-btn"></span>
+      <span class="ham-btn"></span> -->
+      <img id="ham" src="./imgs/menu_FILL1_wght700_GRAD200_opsz48.png" alt="Menu icon">
+      <!-- <i class="fa-thin fa-square-xmark"></i> -->
+      <img id="close" src="./imgs/close_FILL1_wght700_GRAD200_opsz48.png" alt="Close button">
+    </div>
+    <div class="pages" id="pages">
+      <img class="uon-logo-f" src="./imgs/uonlogo.png" alt="University of nairobi Logo">
+      <a href="#">About</a>
       <a href="#">Program</a>
       <a href="#">Join</a>
       <a href="#">Sponsor</a>
@@ -35,10 +43,10 @@
     <section class="first">
       <div class="intro">
         <h3>"Hello! It is Here Again"</h3>
-        <p>NAIROBI INNOVATION WEEK EDITION 3 2022</p>
-        <p>An Interactive session about innovation in Kenya and Africa brought to you by the University of Naorobi. This is to promote advanced changes in our continent.</p>
-        <p>2022.04.26(WED) - 28(FRI)</p>
-        <p>&copy University of Nairobi, Great Court Main Campue</p>
+        <p class="title">NAIROBI INNOVATION WEEK EDITION 3 2022</p>
+        <p class="short-info">An Interactive session about innovation in Kenya and Africa brought to you by the University of Naorobi. This is to promote advanced changes in our continent.</p>
+        <p class="date">2022.04.26(WED) - 28(FRI)</p>
+        <p class="location">@ University of Nairobi, Great Court Main Campus.</p>
       </div>
     </section>
 
@@ -49,7 +57,7 @@
       <div class="programs">
         <div class="lecture">
           <i class="fa-duotone fa-podium"></i>
-          <h2>lecture</h2>
+          <h2>Lecture</h2>
           <p>Listen to the Speakers from various organizations about the messages of innovation</p>
         </div>
 
@@ -76,7 +84,8 @@
           <h2>ignite</h2>
           <p>Get oppurtunities to network with different people from all over the world.</p>
         </div>
-        <a href="#">SEE THE WHOLE PROGRAM</a>
+        <button class="see-more">Join N.I.W Conference 2022</button>
+        <a class="see-less" href="#">SEE THE WHOLE PROGRAM</a>
       </div>
     </section>
 
@@ -162,8 +171,8 @@
 
   </main>
 
-
-  <footer>
+  <button class="more-mob">MORE <i class="fa-solid fa-chevron-down"></i></button>
+  <footer class="sponsors">
     <div>
       <p>Nairobi <br> Innovation Week</p>
     </div>

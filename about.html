@@ -5,69 +5,104 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c90d8a2f33.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
 </head>
 <body>
   <header>
     <div class="social-head">
-      <i class="fa-brands fa-facebook-square"></i>
-      <i class="fa-brands fa-twitter-square"></i>
-      <h4>English</h4>
-      <h4>My Page</h4>
-      <h4>Logout</h4>
+      <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+      
+      
+      
+      <a href="#">Logout</a>
+      <a href="#">School Page</a>
+      <a class="engo" href="#">English</a>
     </div>
-    <div class="pages">
-      <img src="./imgs/uonlogo.png" alt="University of nairobi Logo">
+    <div class="hamb">
+      <!-- <span class="ham-btn"></span>
+      <span class="ham-btn"></span>
+      <span class="ham-btn"></span> -->
+      <img id="ham" src="./imgs/menu_FILL1_wght700_GRAD200_opsz48.png" alt="Menu icon">
+      <!-- <i class="fa-thin fa-square-xmark"></i> -->
+      <img id="close" src="./imgs/close_FILL1_wght700_GRAD200_opsz48.png" alt="Close button">
+    </div>
+    <div class="pages" id="pages">
+      <div>
+        <img class="uon-logo-f" src="./imgs/uonlogo.png" alt="University of nairobi Logo">
+      </div>
+      <div class="pages-a">
         <a href="#">About</a>
-      <a href="#">Program</a>
-      <a href="#">Join</a>
-      <a href="#">Sponsor</a>
-      <a href="#">News</a>
-      <a href="#">Campaign</a>
+        <a href="#">Program</a>
+        <a href="#">Join</a>
+        <a href="#">Sponsor</a>
+        <a href="#">News</a>
+        <a href="#">Campaign</a>
+      </div>
     </div>
+    
   </header>
   <main>
     <section class="A-first">
       <div class="A-intro">
         <h3>"Hello! It is Here Again"</h3>
-        <p>NAIROBI INNOVATION WEEK EDITION 3 2022</p>
-        <p>An Interactive session about innovation in Kenya and Africa brought to you by the University of Naorobi. This is to promote advanced changes in our continent.</p>
-        <p>2022.04.26(WED) - 28(FRI)</p>
-        <p>&copy University of Nairobi, Great Court Main Campue</p>
+        <h2>NAIROBI INNOVATION WEEK EDITION 3 2022</h2>
+        <p class="short-desc">The inter-continental conference brings togethernthe community of experts, academics and activists who comprise of the Creative Commons affiliate network in a different country every two. This year, we hope to expand our invitation list including organizations and individuals. <span class="long-desc"> who want ot work with us in shared projects that advance the cause of commons free culture and open knowledge. So if you are active and engaged in the worlds of open content and knowledge-free software advocates  Wikipedians, Open knowledge, gallaries, libries, museums, archives, governments and fundations, lawyers and activists- we hope you'll consider joining us this year to build stronger, more vibtrant commons together.</span></p>
+        <p class="event-email">Please contact us per the Email for any further Questions about Nairobi Innovation Week Conference 2022!</p>
+        <p class="email-line"><a href="#">uonbinnovation.ac.ke</a></p>
       </div>
     </section>
     <section class="logo-make">
         <h2>Nairobi Innovation Week 2022 Logo</h2>
-        <hr>
-        <p>The logo for the 2022 Nairobi Innovation week was decided through the logo competition from 1 April to 10.April by the students of the University.After Online pulic voting ad Selection Committee process, the logo from Peter Nguka won the prize.After consultation with Mr Nguka we optimized the prize winning-logo for this year's conference.</p>
+        <hr class="hr-logo">
+        <p class="para1">The logo for the 2022 Nairobi Innovation week was decided through the logo competition from 1 April to 10.April by the students of the University.After Online pulic voting ad Selection Committee process, the logo from Peter Nguka won the prize.After consultation with Mr Nguka we optimized the prize winning-logo for this year's conference.</p>
+
+        <p class="para2">The logo of the conference 2022 was decided through the logo competition.</p>
 
         <div class="logo-img">
-          <img src="./imgs/Inno-logo.jpg" alt="Event Logo">
-          <h2>Nairobi Innovation Week</h2>
+          <img src="./imgs/niw2019.jfif" alt="Event Logo">
         </div>
     </section>
 
     <section class="A-third">
       <h3>See the past Nairobi Innovation Week</h3>
       <hr>
-      <p>Take a look at the last two events which took place iin Kisumu and Mombasa respectively.</p>
+      <p>Take a look at the last two events which took place in Kisumu and Mombasa respectively.</p>
       <div class="last-events">
         <a href="https://www.youtube.com/watch?v=-M4SNHmqWG8"><img src="./imgs/niw2020.jfif" alt=""></a>
         <a href="https://www.youtube.com/watch?v=-yToP3YiR0I"><img src="./imgs/niw2019.jfif" alt=""></a>
       </div>
     </section>
+
+    <section class="A-four">
+      <h2>Partner</h2>
+      <hr>
+      <div class="A-sponsors">
+        <img src="./imgs/kcb.png" alt="KCB bank">
+        <img src="./imgs/safaricom.png" alt="Safaricom">
+        <img src="./imgs/microsoft.png" alt="microsoft">
+        <img src="./imgs/udemy.png" alt="Udemy">
+      </div>
+    </section>
   </main>
 
 
-  <footer>
-    <div>
-      <p>Nairobi <br> Innovation Week</p>
+  <footer class= "A-footer">
+    <div id="theme">
+      <p class="theme">Nairobi Innovation Week</p>
     </div>
-    <div>
+    <div class="last_info">
       <h4>2022 Nairobi Innovation Week, Some Rights Reserved</h4>
-      <p>The annual Nairobi Innovation Week (NIW) was launched in 2015 to promote Kenya’s and the world’s innovation and entrepreneurial ecosystems. Throughout the years, The University</p>
+      <p class="footer-para">The annual Nairobi Innovation Week (NIW) was launched in 2015 to promote Kenya’s and the world’s innovation and entrepreneurial ecosystems. Throughout the years, The University</p>
     </div>
 
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>

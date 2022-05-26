@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 :root {
-  --first : #272a31;
+  --first: #272a31;
   --second: #ec5242;
   --third: #d3d3d3;
 }
@@ -10,7 +10,7 @@
   margin: 0;
   box-sizing: border-box;
   left: 0;
-  font-family:"lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 body {
@@ -28,7 +28,6 @@ body {
   color: var(--second);
   margin-bottom: 3%;
   font-weight: 350;
-
 }
 
 .A-intro h2 {
@@ -45,7 +44,6 @@ body {
   flex-direction: column;
   gap: 5%;
   margin-left: 30%;
-  
 }
 
 .pages-a > .about-me {
@@ -116,14 +114,14 @@ body {
 }
 
 .logo-img {
-  margin: 4% 25%;;
+  margin: 4% 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1.7px solid rgba(128, 128, 128, 0.39);
   background: rgba(255, 255, 255, 0);
   height: 50%;
-  padding: 4%
+  padding: 4%;
 }
 
 .logo-img img {
@@ -159,6 +157,14 @@ body {
   align-items: center;
 }
 
+.A-sponsors img {
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 5%;
+}
+
 .last-events > a > img {
   height: 14em;
 }
@@ -176,14 +182,6 @@ body {
   flex-wrap: wrap;
 }
 
-.A-sponsors img {
-  width: 30%;
-  margin-top: 3%;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding-bottom: 5%;
-}
-
 .A-footer {
   display: flex;
   align-items: center;
@@ -193,7 +191,6 @@ body {
 
 .A-footer div {
   /* width: 50%; */
-
 }
 
 .theme {
@@ -215,10 +212,8 @@ body {
 }
 
 .social-head a:hover {
-  transform:skewX(25deg);
+  transform: skewX(25deg);
 }
-
-
 
 @media all and (min-width: 768px) {
   .social-head {
@@ -230,7 +225,6 @@ body {
     padding: 1%;
     gap: 2%;
     font-weight: 600;
-    color: var(--third);
   }
 
   .social-head a {
@@ -288,7 +282,7 @@ body {
 
   .A-intro h2 {
     margin: 8% 14%;
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 
   .short-desc {
@@ -301,6 +295,7 @@ body {
   .long-desc {
     display: inline;
   }
+
   .logo-make {
     text-align: center;
     border: 2px solid grey;
@@ -320,7 +315,6 @@ body {
   .para2 {
     display: none;
   }
-
 
   .A-third {
     border: 2px solid black;
@@ -355,8 +349,6 @@ body {
     color: var(--third);
   }
 
-  
-
   .last_info {
     width: 60%;
     margin-bottom: 1%;
@@ -365,9 +357,6 @@ body {
 
   .footer-para {
     display: block;
-  }
-
-  .footer-para {
     margin-top: 12px;
   }
 }

@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 :root {
-  --first : #272a31;
+  --first: #272a31;
   --second: #ec5242;
   --third: #d3d3d3;
 }
@@ -10,13 +10,13 @@
   margin: 0;
   box-sizing: border-box;
   left: 0;
-  font-family:"lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 body {
   width: 98vw;
   font-family: sans-serif;
-  background: rgba(240,240,240,0.3);
+  background: rgba(240, 240, 240, 0.3);
 }
 
 .social-head {
@@ -26,8 +26,8 @@ body {
 .hamb {
   display: flex;
   justify-content: space-between;
+
   /* background: #cbc7c753; */
-  
 }
 
 #ham {
@@ -53,7 +53,7 @@ body {
 
 .pages a {
   margin-top: 0%;
-  color: rgb(105, 105, 105,0.9);
+  color: rgb(105, 105, 105, 0.9);
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ body {
   padding-top: 10%;
   padding-left: 4%;
   padding-right: 3%;
-  
+
   /* background: url(./imgs/Nairobi.jpg) no-repeat, rgba(240,240,240,0.3);
   -webkit-background-size: cover;
   background-size: cover;
@@ -78,7 +78,6 @@ body {
 
 .intro {
   z-index: 14;
-  transform: translate(-50% -50%);
 }
 
 .intro h3 {
@@ -104,8 +103,8 @@ body {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5rem;
-  color: rgb(105, 105, 105,1);
-  background: rgba(240,240,240,0.3);
+  color: rgb(105, 105, 105, 1);
+  background: rgba(240, 240, 240, 0.3);
   border: 4px solid whitesmoke;
   padding: 3%;
 }
@@ -116,6 +115,7 @@ body {
   font-size: 200%;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
+
   /* color: rgba(88,88,88,0.8); */
   color: var(--first);
   line-height: 40px;
@@ -126,7 +126,7 @@ body {
   margin-top: 1%;
   font-size: 1.2rem;
   font-weight: 600;
-  color: rgb(105, 105, 105,1);
+  color: rgb(105, 105, 105, 1);
   padding-bottom: 11%;
 }
 
@@ -134,7 +134,7 @@ body {
   width: 100%;
   height: 100%;
   background: #cbc7c753;
-  opacity: .9;
+  opacity: 0.9;
   position: absolute;
   top: 0;
 }
@@ -160,10 +160,9 @@ hr {
   flex-wrap: wrap;
   gap: 0.5%;
   align-items: center;
+
   /* width: 90%; */
 }
-
-
 
 .programs div > h2 {
   color: var(--second);
@@ -208,7 +207,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ffffff;
+  background: #fff;
 }
 
 .speaker-name {
@@ -219,7 +218,7 @@ hr {
   margin-top: 10%;
   margin-bottom: 3%;
   font-size: 2rem;
-  color: rgba(40,40,40,1);
+  color: rgba(40, 40, 40, 1);
 }
 
 .speaker-bio {
@@ -230,8 +229,8 @@ hr {
 }
 
 .speaker-shortbrief {
-  font-size: 0.90rem;
-  color: rgba(72,72,72,0.8);
+  font-size: 0.9rem;
+  color: rgba(72, 72, 72, 0.8);
   font-weight: 550;
   margin-left: 4%;
 }
@@ -251,11 +250,8 @@ hr {
   padding-bottom: 4%;
 }
 
-
-
 #wageni1 {
   display: none;
-  
 }
 
 .guests {
@@ -269,8 +265,6 @@ hr {
   gap: 3%;
   margin: 6%;
 }
-
-
 
 .speaker-img {
   display: flex;
@@ -303,7 +297,6 @@ hr {
   background-color: white;
 }
 
-
 .more-mob i {
   color: var(--second);
   margin-left: 2%;
@@ -318,7 +311,7 @@ hr {
 }
 
 .profile {
-  height:85%;
+  height: 85%;
   width: 85%;
   z-index: 10;
   margin-top: 10%;
@@ -423,21 +416,25 @@ button:hover {
     width: 20%;
     margin-bottom: 8%;
   }
+
   .exhibition-img {
     margin-top: 7%;
     width: 20%;
     margin-bottom: 8%;
   }
+
   .forum-img {
     margin-top: 7%;
     width: 20%;
     margin-bottom: 8%;
   }
+
   .workshop-img {
     margin-top: 7%;
     width: 20%;
     margin-bottom: 8%;
   }
+
   .ignite-img {
     margin-top: 7%;
     width: 20%;
@@ -455,6 +452,7 @@ button:hover {
   .guests {
     width: 38%;
   }
+
   #wageni1 {
     display: flex;
     flex-wrap: wrap;
@@ -522,7 +520,7 @@ button:hover {
 
   .juba {
     width: 65%;
-    color: rgba(72,72,72,0.8);
+    color: rgba(72, 72, 72, 0.8);
   }
 
   .juba h4 {

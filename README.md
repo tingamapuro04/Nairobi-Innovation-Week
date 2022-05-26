@@ -11,7 +11,7 @@ This is a two page website project where i have built a website for a conference
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://tingamapuro04.github.io/Nairobi-Innovation-Week/)
 
 
 ## Getting Started

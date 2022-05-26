@@ -189,10 +189,6 @@ body {
   padding: 9%;
 }
 
-.A-footer div {
-  /* width: 50%; */
-}
-
 .theme {
   font-weight: 600;
   color: var(--first);
@@ -239,8 +235,6 @@ body {
   .hamb {
     display: none;
   }
-
-
 
   /* .pages {
     display: flex;

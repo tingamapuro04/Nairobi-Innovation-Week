@@ -113,7 +113,16 @@ ${speakers1.map(speaker1).join('')}
 
 const hideGuest = document.getElementById("wageni1")
 const moreBtn = document.getElementById("more-btn")
+const lessBtn = document.getElementById("less-btn")
 
 moreBtn.addEventListener('click', function() {
   hideGuest.style.display = "block"
+  lessBtn.style.display = 'block'
+  moreBtn.style.display = "none"
+})
+
+lessBtn.addEventListener('click', function() {
+  hideGuest.style.display = "none"
+  moreBtn.style.display = "block"
+  lessBtn.style.display = "none"
 })

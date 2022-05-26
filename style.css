@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 :root {
   --first : #272a31;
   --second: #ec5242;
@@ -24,6 +26,8 @@ body {
 .hamb {
   display: flex;
   justify-content: space-between;
+  /* background: #cbc7c753; */
+  
 }
 
 #ham {
@@ -36,12 +40,8 @@ body {
 }
 
 .pages {
-  background: whitesmoke;
   z-index: 10;
   height: 99vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: 30px;
   font-weight: 600;
   display: none;
@@ -59,8 +59,9 @@ body {
 
 .first {
   padding-top: 10%;
-  margin-left: 4%;
-  margin-right: 3%;
+  padding-left: 4%;
+  padding-right: 3%;
+  
   /* background: url(./imgs/Nairobi.jpg) no-repeat, rgba(240,240,240,0.3);
   -webkit-background-size: cover;
   background-size: cover;
@@ -69,55 +70,73 @@ body {
   filter: (50px);
   -webkit-filter: blur(3px); */
 
-  background: rgba(240,240,240,0.3);
+  /* background: #cbc7c753; */
+  background: url(./imgs/Nairobi.jpg) no-repeat;
+  background-size: 100% 53.5%;
+  position: relative;
 }
 
 .intro {
-  z-index: 4;
+  z-index: 14;
   transform: translate(-50% -50%);
 }
 
 .intro h3 {
+  z-index: 14;
   font-size: 140%;
   color: var(--second);
   line-height: 30px;
 }
 
 .title {
+  z-index: 14;
   font-size: 400%;
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 'cocogoose', sans-serif;
   letter-spacing: 5px;
   line-height: 60px;
-  color: #ff1919;
+  color: orangered;
 }
 
 .short-info {
+  z-index: 14;
   margin-top: 30px;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: rgb(105, 105, 105,1);
   background: rgba(240,240,240,0.3);
-  border: 2px solid azure;
+  border: 4px solid whitesmoke;
   padding: 3%;
 }
 
 .date {
+  z-index: 14;
   margin-top: 30px;
   font-size: 200%;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: rgba(88,88,88,0.8);
+  /* color: rgba(88,88,88,0.8); */
+  color: var(--first);
   line-height: 40px;
 }
 
 .location {
+  z-index: 4;
   margin-top: 1%;
   font-size: 1.2rem;
   font-weight: 600;
   color: rgb(105, 105, 105,1);
-  margin-bottom: 11%;
+  padding-bottom: 11%;
+}
+
+.overle {
+  width: 100%;
+  height: 100%;
+  background: #cbc7c753;
+  opacity: .9;
+  position: absolute;
+  top: 0;
 }
 
 .second {
@@ -284,9 +303,14 @@ hr {
   background-color: white;
 }
 
+
 .more-mob i {
   color: var(--second);
   margin-left: 2%;
+}
+
+#less-btn {
+  display: none;
 }
 
 .check {
@@ -311,9 +335,25 @@ hr {
   background-color: #f5f5f5;
 }
 
+button:hover {
+  background: rgba(0, 0, 255, 0.407);
+  color: #ec5242;
+}
+
+.programs div:hover {
+  transform: translate(-10px, -10px);
+}
+
 @media all and (min-width: 768px) {
   #pages {
     display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 
   .hamb {
@@ -346,7 +386,6 @@ hr {
 
   .location {
     font-weight: 500;
-    margin-bottom: 10%;
   }
 
   .second {

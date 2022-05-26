@@ -1,0 +1,345 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+:root {
+  --first: #272a31;
+  --second: #ec5242;
+  --third: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  left: 0;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  width: 98vw;
+}
+
+.A-first {
+  padding: 1% 3% 4% 5%;
+  text-align: center;
+  background: #cbc7c753;
+}
+
+.A-intro h3 {
+  font-size: 1.5rem;
+  color: var(--second);
+  margin-bottom: 3%;
+  font-weight: 350;
+}
+
+.A-intro h2 {
+  font-size: 3.7rem;
+  color: var(--second);
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 900;
+  margin-bottom: 10%;
+  padding: 0 10% 2% 10%;
+}
+
+.pages-a {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  margin-left: 30%;
+}
+
+.pages-a > .about-me {
+  color: var(--second);
+}
+
+.hamb {
+  background: #cbc7c753;
+}
+
+.short-desc {
+  /* color: rgba(88,88,88,0.9); */
+  color: #36454f;
+  background: white;
+  padding: 4% 2%;
+  line-height: 1.7rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin-bottom: 9%;
+}
+
+.long-desc {
+  display: none;
+}
+
+.event-email {
+  line-height: 1.8rem;
+  color: #36454f;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.email-line a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--first);
+}
+
+.logo-make {
+  text-align: center;
+}
+
+.logo-make h2 {
+  margin: 12% 0 0 0;
+  padding: 0 10%;
+  font-size: 1.7rem;
+  font-weight: 540;
+}
+
+.para1 {
+  display: none;
+  padding: 0 12%;
+  color: rgba(128, 128, 128, 0.989);
+}
+
+.hr-logo {
+  margin: 1% 0 0 45%;
+  color: var(--second);
+}
+
+.para2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  padding: 0 7%;
+  color: var(--third);
+  margin-bottom: 10%;
+}
+
+.logo-img {
+  margin: 4% 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.7px solid rgba(128, 128, 128, 0.39);
+  background: rgba(255, 255, 255, 0);
+  height: 50%;
+  padding: 4%;
+}
+
+.logo-img img {
+  width: 55%;
+}
+
+.A-third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.A-third h3 {
+  margin-top: 15%;
+  font-size: 1.4rem;
+  font-weight: 550;
+  margin-bottom: 2%;
+}
+
+.A-third p {
+  margin: 2% 2%;
+  padding: 0 8%;
+  line-height: 1.4em;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.last-events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.A-sponsors img {
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 5%;
+}
+
+.last-events > a > img {
+  height: 14em;
+}
+
+.A-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--first);
+  color: var(--third);
+}
+
+.A-sponsors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.A-footer {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  padding: 9%;
+}
+
+.theme {
+  font-weight: 600;
+  color: var(--first);
+  font-size: 1.2rem;
+}
+
+.footer-para {
+  display: none;
+}
+
+.last-events > a > img:hover {
+  transform: translate(5px, -15px);
+}
+
+.pages-a a:hover {
+  color: var(--second);
+}
+
+.social-head a:hover {
+  transform: skewX(25deg);
+}
+
+@media all and (min-width: 768px) {
+  .social-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--first);
+    color: var(--third);
+    padding: 1%;
+    gap: 2%;
+    font-weight: 600;
+  }
+
+  .social-head a {
+    text-decoration: none;
+    color: var(--third);
+  }
+
+  .engo {
+    margin-right: 10%;
+  }
+
+  .hamb {
+    display: none;
+  }
+
+  .uon-logo-f {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .pages-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 70%;
+    align-items: flex-start;
+  }
+
+  .pages-a a {
+    display: inline-block;
+  }
+
+  .A-first {
+    text-align: center;
+  }
+
+  .A-intro h3 {
+    display: none;
+  }
+
+  .A-intro h2 {
+    margin: 8% 14%;
+    margin-bottom: 30px;
+  }
+
+  .short-desc {
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 8%;
+    padding: 2% 5%;
+  }
+
+  .long-desc {
+    display: inline;
+  }
+
+  .logo-make {
+    text-align: center;
+    border: 2px solid grey;
+  }
+
+  .logo-make h2 {
+    margin-top: 0;
+    padding-top: 7%;
+  }
+
+  .para1 {
+    display: block;
+    margin: 2% 10%;
+    line-height: 1.5rem;
+  }
+
+  .para2 {
+    display: none;
+  }
+
+  .A-third {
+    border: 2px solid black;
+  }
+
+  .A-third h3 {
+    margin-top: 42px;
+    letter-spacing: 1px;
+  }
+
+  .last-events {
+    margin-top: 2.9rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+  }
+
+  .A-four {
+    display: none;
+  }
+
+  .A-footer {
+    background: var(--first);
+    padding: 4%;
+  }
+
+  #theme {
+    width: 34%;
+  }
+
+  .theme {
+    color: var(--third);
+  }
+
+  .last_info {
+    width: 60%;
+    margin-bottom: 1%;
+    color: var(--third);
+  }
+
+  .footer-para {
+    display: block;
+    margin-top: 12px;
+  }
+}

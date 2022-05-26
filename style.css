@@ -1,5 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 :root {
-  --first : #272a31;
+  --first: #272a31;
   --second: #ec5242;
   --third: #d3d3d3;
 }
@@ -8,11 +10,13 @@
   margin: 0;
   box-sizing: border-box;
   left: 0;
-  font-family:"lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 body {
   width: 98vw;
+  font-family: sans-serif;
+  background: rgba(240, 240, 240, 0.3);
 }
 
 .social-head {
@@ -22,6 +26,8 @@ body {
 .hamb {
   display: flex;
   justify-content: space-between;
+
+  /* background: #cbc7c753; */
 }
 
 #ham {
@@ -34,12 +40,8 @@ body {
 }
 
 .pages {
-  background: var(--first);
   z-index: 10;
   height: 99vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: 30px;
   font-weight: 600;
   display: none;
@@ -50,54 +52,91 @@ body {
 }
 
 .pages a {
-  margin-top: 5%;
-  color: var(--third);
+  margin-top: 0%;
+  color: rgb(105, 105, 105, 0.9);
   text-decoration: none;
 }
 
 .first {
   padding-top: 10%;
-  margin-left: 4%;
-  margin-right: 3%;
+  padding-left: 4%;
+  padding-right: 3%;
+
+  /* background: url(./imgs/Nairobi.jpg) no-repeat, rgba(240,240,240,0.3);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: -2;
+  filter: (50px);
+  -webkit-filter: blur(3px); */
+
+  /* background: #cbc7c753; */
+  background: url(./imgs/Nairobi.jpg) no-repeat;
+  background-size: 100% 53.5%;
+  position: relative;
+}
+
+.intro {
+  z-index: 14;
 }
 
 .intro h3 {
+  z-index: 14;
   font-size: 140%;
   color: var(--second);
   line-height: 30px;
 }
 
 .title {
-  font-size: 300%;
+  z-index: 14;
+  font-size: 400%;
   font-weight: 700;
-  font-family: sans-serif;
-  color: var(--second);
+  font-family: 'cocogoose', sans-serif;
+  letter-spacing: 5px;
+  line-height: 60px;
+  color: orangered;
 }
 
 .short-info {
-  margin-top: 7%;
-  font-size: 1.2rem;
+  z-index: 14;
+  margin-top: 30px;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5rem;
-  color: var(--third);
-  background: grey;
-  border: 2px solid green;
+  color: rgb(105, 105, 105, 1);
+  background: rgba(240, 240, 240, 0.3);
+  border: 4px solid whitesmoke;
   padding: 3%;
 }
 
 .date {
-  margin-top: 7%;
+  z-index: 14;
+  margin-top: 30px;
   font-size: 200%;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+  /* color: rgba(88,88,88,0.8); */
   color: var(--first);
   line-height: 40px;
 }
 
 .location {
+  z-index: 4;
   margin-top: 1%;
   font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--third);
+  font-weight: 600;
+  color: rgb(105, 105, 105, 1);
+  padding-bottom: 11%;
+}
+
+.overle {
+  width: 100%;
+  height: 100%;
+  background: #cbc7c753;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
 }
 
 .second {
@@ -118,24 +157,86 @@ hr {
   background: rgba(128, 128, 128, 0.3);
   margin: 4%;
   display: flex;
-  gap: 5%;
+  flex-wrap: wrap;
+  gap: 0.5%;
   align-items: center;
-}
 
-.programs div > i {
-  width: 10%;
+  /* width: 90%; */
 }
 
 .programs div > h2 {
   color: var(--second);
-  margin-right: 10px;
-  width: 20%;
+  margin-right: 1%;
+  width: 18%;
+  font-size: 120%;
 }
 
 .programs div > p {
-  width:60%;
-  padding: 4%;
+  padding: 1%;
   line-height: 1.4rem;
+  width: 66%;
+  font-size: 100%;
+}
+
+.lecture-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.exhibition-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.workshop-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.forum-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.ignite-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.speaker-name {
+  margin-left: 4%;
+}
+
+.featured {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  font-size: 2rem;
+  color: rgba(40, 40, 40, 1);
+}
+
+.speaker-bio {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--second);
+  margin: 4%;
+}
+
+.speaker-shortbrief {
+  font-size: 0.9rem;
+  color: rgba(72, 72, 72, 0.8);
+  font-weight: 550;
+  margin-left: 4%;
+}
+
+.speaker-hr {
+  margin: 4%;
 }
 
 .see-more {
@@ -147,6 +248,38 @@ hr {
   color: #d3d3d3;
   padding-top: 4%;
   padding-bottom: 4%;
+}
+
+#wageni1 {
+  display: none;
+}
+
+.guests {
+  display: flex;
+  gap: 3%;
+  margin: 6%;
+}
+
+.guests1 {
+  display: flex;
+  gap: 3%;
+  margin: 6%;
+}
+
+.speaker-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  background: url(./imgs/check.png) no-repeat;
+  background-size: 30%;
+}
+
+.speaker-det {
+  width: 45%;
+}
+
+.four {
+  display: none;
 }
 
 .see-less {
@@ -161,6 +294,7 @@ hr {
   padding-bottom: 3%;
   color: var(--third);
   border: 2px solid var(--third);
+  background-color: white;
 }
 
 .more-mob i {
@@ -168,6 +302,228 @@ hr {
   margin-left: 2%;
 }
 
+#less-btn {
+  display: none;
+}
+
+.check {
+  height: 90px;
+}
+
+.profile {
+  height: 85%;
+  width: 85%;
+  z-index: 10;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
 .sponsors {
   display: none;
+}
+
+.sponyi {
+  display: none;
+  background-color: #f5f5f5;
+}
+
+button:hover {
+  background: rgba(0, 0, 255, 0.407);
+  color: #ec5242;
+}
+
+.programs div:hover {
+  transform: translate(-10px, -10px);
+}
+
+@media all and (min-width: 768px) {
+  #pages {
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .hamb {
+    display: none;
+  }
+
+  .intro {
+    margin-left: 10%;
+  }
+
+  .intro h3 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 19px;
+  }
+
+  .title {
+    padding-right: 36%;
+  }
+
+  .short-info {
+    width: 60%;
+    padding: 1.5%;
+  }
+
+  .date {
+    margin-top: 1em;
+  }
+
+  .location {
+    font-weight: 500;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 1px;
+  }
+
+  .programs div {
+    margin: 0.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .programs div h2 {
+    width: auto;
+  }
+
+  .programs div > p {
+    padding: 5%;
+    width: 97%;
+  }
+
+  .lecture-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+
+  .exhibition-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+
+  .forum-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+
+  .workshop-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+
+  .ignite-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  #wageni {
+    display: flex;
+  }
+
+  .guests {
+    width: 38%;
+  }
+
+  #wageni1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .guests1 {
+    width: 38%;
+    margin-top: -28px;
+  }
+
+  .speaker-det {
+    width: 80%;
+  }
+
+  .see-less {
+    display: flex;
+    margin-bottom: 5%;
+    font-weight: 600;
+    color: var(--third);
+    font-size: 1rem;
+  }
+
+  .four {
+    display: flex;
+    flex-direction: column;
+    background: var(--first);
+    text-align: center;
+    color: var(--third);
+  }
+
+  .sponsor-hr {
+    margin-left: 48%;
+    width: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 3px;
+  }
+
+  .more-mob {
+    display: none;
+  }
+
+  .sponsors {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin: 1% 3%;
+    margin-bottom: 6%;
+  }
+
+  .sponsors img {
+    width: 20%;
+  }
+
+  .sponyi {
+    display: flex;
+    padding: 7%;
+  }
+
+  .nairobi {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 30%;
+  }
+
+  .juba {
+    width: 65%;
+    color: rgba(72, 72, 72, 0.8);
+  }
+
+  .juba h4 {
+    margin-bottom: 2%;
+  }
 }

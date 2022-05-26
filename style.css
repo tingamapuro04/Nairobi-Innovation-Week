@@ -13,6 +13,8 @@
 
 body {
   width: 98vw;
+  font-family: sans-serif;
+  background: rgba(240,240,240,0.3);
 }
 
 .social-head {
@@ -34,7 +36,7 @@ body {
 }
 
 .pages {
-  background: var(--first);
+  background: whitesmoke;
   z-index: 10;
   height: 99vh;
   display: flex;
@@ -50,8 +52,8 @@ body {
 }
 
 .pages a {
-  margin-top: 5%;
-  color: var(--third);
+  margin-top: 0%;
+  color: rgb(105, 105, 105,0.9);
   text-decoration: none;
 }
 
@@ -59,6 +61,20 @@ body {
   padding-top: 10%;
   margin-left: 4%;
   margin-right: 3%;
+  /* background: url(./imgs/Nairobi.jpg) no-repeat, rgba(240,240,240,0.3);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: -2;
+  filter: (50px);
+  -webkit-filter: blur(3px); */
+
+  background: rgba(240,240,240,0.3);
+}
+
+.intro {
+  z-index: 4;
+  transform: translate(-50% -50%);
 }
 
 .intro h3 {
@@ -73,16 +89,17 @@ body {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 5px;
   line-height: 60px;
-  color: var(--second);
+  color: #ff1919;
 }
 
 .short-info {
   margin-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1.5rem;
-  color: var(--third);
-  background: grey;
-  border: 2px solid green;
+  color: rgb(105, 105, 105,1);
+  background: rgba(240,240,240,0.3);
+  border: 2px solid azure;
   padding: 3%;
 }
 
@@ -91,15 +108,16 @@ body {
   font-size: 200%;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: var(--third);
+  color: rgba(88,88,88,0.8);
   line-height: 40px;
 }
 
 .location {
   margin-top: 1%;
   font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--third);
+  font-weight: 600;
+  color: rgb(105, 105, 105,1);
+  margin-bottom: 11%;
 }
 
 .second {
@@ -120,24 +138,87 @@ hr {
   background: rgba(128, 128, 128, 0.3);
   margin: 4%;
   display: flex;
-  gap: 5%;
+  flex-wrap: wrap;
+  gap: 0.5%;
   align-items: center;
+  /* width: 90%; */
 }
 
-.programs div > i {
-  width: 10%;
-}
+
 
 .programs div > h2 {
   color: var(--second);
-  margin-right: 10px;
-  width: 20%;
+  margin-right: 1%;
+  width: 18%;
+  font-size: 120%;
 }
 
 .programs div > p {
-  width:60%;
-  padding: 4%;
+  padding: 1%;
   line-height: 1.4rem;
+  width: 66%;
+  font-size: 100%;
+}
+
+.lecture-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.exhibition-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.workshop-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.forum-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.ignite-img {
+  margin: 4% 2%;
+  width: 9%;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+.speaker-name {
+  margin-left: 4%;
+}
+
+.featured {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  font-size: 2rem;
+  color: rgba(40,40,40,1);
+}
+
+.speaker-bio {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--second);
+  margin: 4%;
+}
+
+.speaker-shortbrief {
+  font-size: 0.90rem;
+  color: rgba(72,72,72,0.8);
+  font-weight: 550;
+  margin-left: 4%;
+}
+
+.speaker-hr {
+  margin: 4%;
 }
 
 .see-more {
@@ -149,6 +230,43 @@ hr {
   color: #d3d3d3;
   padding-top: 4%;
   padding-bottom: 4%;
+}
+
+
+
+#wageni1 {
+  display: none;
+  
+}
+
+.guests {
+  display: flex;
+  gap: 3%;
+  margin: 6%;
+}
+
+.guests1 {
+  display: flex;
+  gap: 3%;
+  margin: 6%;
+}
+
+
+
+.speaker-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  background: url(./imgs/check.png) no-repeat;
+  background-size: 30%;
+}
+
+.speaker-det {
+  width: 45%;
+}
+
+.four {
+  display: none;
 }
 
 .see-less {
@@ -163,6 +281,7 @@ hr {
   padding-bottom: 3%;
   color: var(--third);
   border: 2px solid var(--third);
+  background-color: white;
 }
 
 .more-mob i {
@@ -170,11 +289,37 @@ hr {
   margin-left: 2%;
 }
 
+.check {
+  height: 90px;
+}
+
+.profile {
+  height:85%;
+  width: 85%;
+  z-index: 10;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
 .sponsors {
   display: none;
 }
 
+.sponyi {
+  display: none;
+  background-color: #f5f5f5;
+}
+
 @media all and (min-width: 768px) {
+  #pages {
+    display: flex;
+  }
+
+  .hamb {
+    display: none;
+  }
+
   .intro {
     margin-left: 10%;
   }
@@ -213,27 +358,76 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 9%;
+    margin-right: 9%;
     margin-bottom: 1px;
   }
 
   .programs div {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: 0.2%;
     display: flex;
     flex-direction: column;
-    gap: 2%;
-    text-align: center;
+    align-items: center;
+  }
+
+  .programs div h2 {
+    width: auto;
   }
 
   .programs div > p {
-    padding: 4%;
-    width: 90%;
+    padding: 5%;
+    width: 97%;
+  }
+
+  .lecture-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+  .exhibition-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+  .forum-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+  .workshop-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
+  }
+  .ignite-img {
+    margin-top: 7%;
+    width: 20%;
+    margin-bottom: 8%;
   }
 
   .see-more {
     display: none;
+  }
+
+  #wageni {
+    display: flex;
+  }
+
+  .guests {
+    width: 38%;
+  }
+  #wageni1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .guests1 {
+    width: 38%;
+    margin-top: -28px;
+  }
+
+  .speaker-det {
+    width: 80%;
   }
 
   .see-less {
@@ -289,6 +483,7 @@ hr {
 
   .juba {
     width: 65%;
+    color: rgba(72,72,72,0.8);
   }
 
   .juba h4 {

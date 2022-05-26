@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 :root {
   --first : #272a31;
   --second: #ec5242;
@@ -16,8 +18,9 @@ body {
 }
 
 .A-first {
-  margin: 5% 3%;
+  padding: 1% 3% 4% 5%;
   text-align: center;
+  background: #d3d3d369;
 }
 
 .A-intro h3 {
@@ -29,19 +32,22 @@ body {
 }
 
 .A-intro h2 {
-  font-size: 2.7rem;
+  font-size: 3.7rem;
   color: var(--second);
-  font-weight: 700;
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 900;
   margin-bottom: 10%;
+  padding: 0 10% 2% 10%;
 }
 
 .short-desc {
-  border: 1px solid grey;
+  /* color: rgba(88,88,88,0.9); */
+  color: #36454f;
+  background: white;
   padding: 4% 2%;
   line-height: 1.7rem;
-  font-weight: 540;
-  font-size: 1.2rem;
-  color: var(--third);
+  font-weight: 700;
+  font-size: 0.75rem;
   margin-bottom: 9%;
 }
 
@@ -51,7 +57,7 @@ body {
 
 .event-email {
   line-height: 1.8rem;
-  color: var(--third);
+  color: #36454f;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -75,6 +81,7 @@ body {
 
 .para1 {
   display: none;
+  padding: 0 12%;
 }
 
 .hr-logo {

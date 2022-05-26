@@ -236,17 +236,6 @@ body {
     display: none;
   }
 
-  /* .pages {
-    display: flex;
-    flex-direction: row;
-    background: whitesmoke;
-    height: auto;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.3rem;
-    font-weight: 400;
-  } */
-
   .uon-logo-f {
     display: block;
     padding-top: 7px;

@@ -1,40 +1,29 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 # Project Name
-
-> Description the project.
-
+NAIROBI INNOVATION WEEK
+> Description of the project
+This is a two page website project where i have built a website for a conference carried out in kenya.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html, Css, javascript.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://tingamapuro04.github.io/Nairobi-Innovation-Week/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+Laptop
+Code Editor
+Basic Git and Github knowledge.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+In your terminal navigate to the directory that you would wish to deploy the repository. Then input git clone [link in the live demo]
 
 
 
@@ -42,21 +31,12 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/tingamapuro04)
+- Twitter: [@twitterhandle](https://twitter.com/alphonce_mobutu)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project design was inspired by a design from Cindy Shin in Behance.
 
 ## 📝 License
 

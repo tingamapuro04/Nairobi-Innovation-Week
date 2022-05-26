@@ -44,9 +44,15 @@ body {
   flex-direction: column;
   gap: 5%;
   margin-left: 30%;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.pages-a > .about-me {
+.pages-a li {
+  list-style: none;
+}
+
+.pages-a > li > .about-me {
   color: var(--second);
 }
 
@@ -157,6 +163,17 @@ body {
   align-items: center;
 }
 
+.last-events-2019 {
+}
+
+.overley {
+  background: var(--second);
+  position: absolute;
+  margin-top: -23%;
+  height: 33%;
+  margin-left: 21%;
+}
+
 .A-sponsors img {
   width: 30%;
   margin-top: 3%;
@@ -213,14 +230,31 @@ body {
 
 @media all and (min-width: 768px) {
   .social-head {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    display: inline-block;
     background-color: var(--first);
+    width: 100%;
+    /* justify-content: flex-end;
+    align-items: center;
+    
     color: var(--third);
     padding: 1%;
     gap: 2%;
+    font-weight: 600; */
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    font-size: 105%;
     font-weight: 600;
+    margin-right: 10%;
+    padding-right: 5%;
+  }
+
+  .nav-list li {
+    padding: 0.5% 0;
+    list-style: none;
   }
 
   .social-head a {
@@ -229,11 +263,15 @@ body {
   }
 
   .engo {
-    margin-right: 10%;
   }
 
   .hamb {
     display: none;
+  }
+
+  .pages {
+    display: flex;
+    justify-content: center;
   }
 
   .uon-logo-f {
@@ -245,14 +283,25 @@ body {
   .pages-a {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    height: 100%;
-    width: 70%;
-    align-items: flex-start;
+    margin-left: 0;
+    align-items: center;
+    margin-right: 4%;
+    width: 60%;
   }
 
   .pages-a a {
     display: inline-block;
+  }
+
+  .campaign {
+    border: 5px solid var(--second);
+    padding: 10%;
+  }
+
+  .pages-a li .campaign {
+    color: var(--second);
   }
 
   .A-first {

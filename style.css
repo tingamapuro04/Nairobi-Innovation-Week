@@ -23,6 +23,13 @@ body {
   display: none;
 }
 
+/* .nav-list {
+  display: flex;
+  gap: 5%;
+  width: 50%;
+  background: green;
+} */
+
 .hamb {
   display: flex;
   justify-content: space-between;
@@ -140,7 +147,8 @@ body {
 }
 
 .second {
-  background: var(--first);
+  background: url(./imgs/dark.jpg) no-repeat;
+  background-size: cover;
   color: var(--third);
   display: flex;
   flex-direction: column;
@@ -153,9 +161,9 @@ hr {
   background: var(--second);
 }
 
-.programs div {
+.programs article {
   background: rgba(128, 128, 128, 0.3);
-  margin: 4%;
+  margin: 3%;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5%;
@@ -164,14 +172,14 @@ hr {
   /* width: 90%; */
 }
 
-.programs div > h2 {
+.programs article > h2 {
   color: var(--second);
   margin-right: 1%;
   width: 18%;
   font-size: 120%;
 }
 
-.programs div > p {
+.programs article > p {
   padding: 1%;
   line-height: 1.4rem;
   width: 66%;
@@ -333,8 +341,8 @@ button:hover {
   color: #ec5242;
 }
 
-.programs div:hover {
-  transform: translate(-10px, -10px);
+.programs article:hover {
+  border: 2px solid white;
 }
 
 @media all and (min-width: 768px) {
@@ -389,26 +397,28 @@ button:hover {
   .programs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-left: 9%;
-    margin-right: 9%;
+    /* justify-content: center; */
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 1px;
   }
 
-  .programs div {
+  .programs article {
     margin: 0.2%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
-  .programs div h2 {
+  .programs article h2 {
     width: auto;
+    height: auto;
   }
 
-  .programs div > p {
-    padding: 5%;
-    width: 97%;
+  .programs article > p {
+    padding: 3%;
+    width: 100%;
+    height: auto;
   }
 
   .lecture-img {

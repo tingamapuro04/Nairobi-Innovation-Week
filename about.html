@@ -16,37 +16,35 @@
   <header>
     <nav class="social-head">
       <ul class="nav-list">
-        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-        <a href="#">Logout</a>
-        <a href="#">School Page</a>
-        <a class="engo" href="#">English</a>
+        <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+        <li><a href="#">Logout</a></li>
+        <li><a href="#">School Page</a></li>
+        <li><a class="engo" href="#">English</a></li>
       </ul>
     </nav>
 
-    <div class="hamb">
-      <img id="ham" src="./imgs/menu_FILL1_wght700_GRAD200_opsz48.png" alt="Menu icon">
-      <img id="close" src="./imgs/close_FILL1_wght700_GRAD200_opsz48.png" alt="Close button">
-    </div>
 
-    <div class="pages" id="pages">
-      <div>
-        <a href="index.html"><img class="uon-logo-f" src="./imgs/uonlogo.png" alt="University of nairobi Logo"></a>
-        
+    <nav class="navbar">
+      <div class="ham" id="ham">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <div class="pages-a">
-        <a class="about-me" href="#">About</a>
-        <a href="#">Program</a>
-        <a href="#">Join</a>
-        <a href="#">Sponsor</a>
-        <a href="#">News</a>
-        <a href="#">Campaign</a>
-      </div>
-    </div>
+      <a href="index.html" class="brand"><img src="./imgs/uonlogo.png" alt="uon logo"></a>
+      <ul class="navmenu" id="navmenu">
+          <li class="items item1" style="padding: 0;"><a href="about.html" class="nav-link about-link" style="color:red">About</a></li>
+          <li class="items" style="padding: 0;"><a href="#community" class="nav-link program-link">Community</a></li>
+          <li class="items" style="padding: 0;"><a href="#Logo" class="nav-link join-link">Logo</a></li>
+          <li class="items" style="padding: 0;"><a href="#events" class="nav-link sponsor-link">Events</a></li>
+          <li class="items" style="padding: 0;"><a target="_blank" href="https://www.uonbi.ac.ke/" class="nav-link school-link" style="color: red;">UoNSchool</a></li>
+      </ul>
+
+    </nav>
     
   </header>
   <main>
-    <section class="A-first">
+    <section class="A-first" id="community">
       <div class="A-intro">
         <h3>"Hello! It is Here Again"</h3>
         <h2>NAIROBI INNOVATION WEEK EDITION 3 2022</h2>
@@ -55,7 +53,7 @@
         <p class="email-line"><a href="#">uonbinnovation.ac.ke</a></p>
       </div>
     </section>
-    <section class="logo-make">
+    <section class="logo-make" id="Logo">
         <h2>Nairobi Innovation Week 2022 Logo</h2>
         <hr class="hr-logo">
         <p class="para1">The logo for the 2022 Nairobi Innovation week was decided through the logo competition from 1 April to 10.April by the students of the University.After Online pulic voting ad Selection Committee process, the logo from Peter Nguka won the prize.After consultation with Mr Nguka we optimized the prize winning-logo for this year's conference.</p>
@@ -67,17 +65,15 @@
         </div>
     </section>
 
-    <section class="A-third">
+    <section class="A-third" id="events">
       <h3>See the past Nairobi Innovation Week</h3>
       <hr>
       <p>Take a look at the last two events which took place in Kisumu and Mombasa respectively.</p>
       <div class="last-events">
-        <div class="last-event-2019">
-          <a href="https://www.youtube.com/watch?v=-M4SNHmqWG8"><img src="./imgs/photo18.jfif" alt=""></a>
-          <div class="overley"><h3 class="prev-year">2019</h3>
-          <p class="last-para">Nairobi Innonation Week</p></div>
-        </div>
-        <a href="https://www.youtube.com/watch?v=-yToP3YiR0I"><img src="./imgs/photo20.jfif" alt=""></a>
+        <a href="https://www.youtube.com/watch?v=-M4SNHmqWG8"><div class="overley"><h3 class="prev-year">2019</h3>
+            <p class="last-para">Nairobi Innonation Week</p></div></a>
+        <a href="https://www.youtube.com/watch?v=-yToP3YiR0I"><div class="overley1"><h3 class="prev-year">2020</h3>
+          <p class="last-para">Nairobi Innonation Week</p></div></a>
       </div>
     </section>
 
@@ -96,8 +92,7 @@
 
   <footer class= "A-footer">
     <div id="theme">
-      <!-- <p class="theme">NAIROBI INNOVATION WEEK</p> -->
-      <img src="./imgs/niw2019.jfif" alt="">
+      <img src="./imgs/uonlogo.png" alt="uon logo image">
     </div>
     <div class="last_info">
       <h4>2022 Nairobi Innovation Week, Some Rights Reserved</h4>

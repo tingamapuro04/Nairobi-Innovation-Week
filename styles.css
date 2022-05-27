@@ -1,0 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+:root {
+  --first: #272a31;
+  --second: #ec5242;
+  --third: #d3d3d3;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  left: 0;
+  font-family: "lato", sans-serif;
+}

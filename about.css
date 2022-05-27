@@ -61,7 +61,6 @@ body {
 }
 
 .short-desc {
-  /* color: rgba(88,88,88,0.9); */
   color: #36454f;
   background: white;
   padding: 4% 2%;
@@ -158,20 +157,44 @@ body {
 .last-events {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
 }
 
-.last-events-2019 {
+.last-events a {
+  width: 70%;
+  margin-top: -7%;
+  text-decoration: none;
 }
+
+
 
 .overley {
-  background: var(--second);
-  position: absolute;
-  margin-top: -23%;
-  height: 33%;
-  margin-left: 21%;
+  background: linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+        url(./imgs/photo18.jfif) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  height: 14em;
+  width: 100%;
+}
+
+.overley1 {
+  background: linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+        url(./imgs/photo20.jfif) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  height: 14em;
+  width: 100%;
+}
+
+.prev-year {
+  padding-top: 15%;
 }
 
 .A-sponsors img {
@@ -233,13 +256,6 @@ body {
     display: inline-block;
     background-color: var(--first);
     width: 100%;
-    /* justify-content: flex-end;
-    align-items: center;
-    
-    color: var(--third);
-    padding: 1%;
-    gap: 2%;
-    font-weight: 600; */
   }
 
   .nav-list {
@@ -260,9 +276,6 @@ body {
   .social-head a {
     text-decoration: none;
     color: var(--third);
-  }
-
-  .engo {
   }
 
   .hamb {
@@ -330,7 +343,6 @@ body {
 
   .logo-make {
     text-align: center;
-    border: 2px solid grey;
   }
 
   .logo-make h2 {
@@ -349,7 +361,7 @@ body {
   }
 
   .A-third {
-    border: 2px solid black;
+    border: 1px solid grey;
   }
 
   .A-third h3 {
@@ -362,6 +374,12 @@ body {
     display: flex;
     flex-direction: row;
     padding-bottom: 5rem;
+    width: 75%;
+    gap: 1%;
+  }
+
+  .last-events a {
+    height: ;
   }
 
   .A-four {
@@ -374,7 +392,12 @@ body {
   }
 
   #theme {
-    width: 34%;
+    margin-left: 24%;
+    margin-right: 4%;
+  }
+
+  #theme img {
+    width: 130%;
   }
 
   .theme {

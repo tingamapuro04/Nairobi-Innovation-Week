@@ -29,22 +29,25 @@
         <li><a class="engo" href="#">English</a></li>
       </ul>
     </nav>
-    <div class="hamb">
-      <img id="ham" src="./imgs/menu_FILL1_wght700_GRAD200_opsz48.png" alt="Menu icon">
-      <img id="close" src="./imgs/close_FILL1_wght700_GRAD200_opsz48.png" alt="Close button">
-    </div>
-    <div class="pages" id="pages">
-      <a href="index.html"><img class="uon-logo-f" src="./imgs/uonlogo.png" alt="University of nairobi Logo"></a>
-      
-      <ul class="pages-a">
-        <li><a class="about-me" href="about.html">About</a></li>
-        <li><a href="#">Program</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Sponsor</a></li>
-        <li><a href="#">News</a></li>
-        <li><a class="campaign" href="#">Campaign</a></li>
+
+    <nav class="navbar">
+      <div class="ham" id="ham">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <a href="index.html" class="brand"><img src="./imgs/uonlogo.png" alt="uon logo"></a>
+      <ul class="navmenu" id="navmenu">
+          <li  class="items item1" style="padding: 0;"><a href="about.html" class="nav-link about-link" style="color:red">About</a></li>
+          <li class="items" style="padding: 0;"><a href="#programs" class="nav-link program-link">Program</a></li>
+          <li class="items" style="padding: 0;"><a href="#guests" class="nav-link join-link">Speakers</a></li>
+          <li class="items" style="padding: 0;"><a href="#sponsor" class="nav-link sponsor-link">Sponsor</a></li>
+          <li class="items" style="padding: 0;"><a target="_blank" href="https://www.uonbi.ac.ke/" class="nav-link school-link" style="color: red;">UoNSchool</a></li>
       </ul>
-    </div>
+
+    </nav>
+
+
   </header>
 
   <main>
@@ -60,7 +63,7 @@
     </section>
 
 
-    <section class="second">
+    <section class="second" id="programs">
       <h2>Main Program</h2>
       <hr>
       <div class="programs">
@@ -98,7 +101,7 @@
       <a class="see-less" href="#">SEE THE WHOLE PROGRAM</a>
     </section>
 
-    <section class="third">
+    <section class="third" id="guests">
       <h2 class="featured">Featured Speakers</h2>
       <hr>
       <div id="wageni"></div>
@@ -106,7 +109,7 @@
     </section>
 
 
-    <section class="four">
+    <section class="four" id="sponsor">
       <h2>partner</h2>
       <hr class="sponsor-hr">
       <div class="sponsors">
@@ -123,7 +126,7 @@
   <button class="more-mob" id="less-btn">Less </button>
   <footer class="sponyi">
     <div class="nairobi">
-      <p>Nairobi <br> Innovation Week</p>
+      <img src="./imgs/uonlogo.png" alt="">
     </div>
     <div class="juba">
       <h4>2022 Nairobi Innovation Week, Some Rights Reserved</h4>

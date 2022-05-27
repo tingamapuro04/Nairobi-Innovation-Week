@@ -1,18 +1,55 @@
-const ham = document.getElementById('ham');
-const close = document.getElementById('close');
-const pages = document.getElementById('pages');
+const ham = document.querySelector('.ham');
+const navMenu = document.querySelector('.navmenu');
 
 ham.addEventListener('click', () => {
-  pages.style.display = 'flex';
-  ham.style.display = 'none';
-  close.style.display = 'block';
+  ham.classList.toggle('active')
+  navMenu.classList.toggle('active')
 });
 
-close.addEventListener('click', () => {
-  pages.style.display = 'none';
-  close.style.display = 'none';
-  ham.style.display = 'block';
-});
+const about = document.querySelector('.about-link');
+const program = document.querySelector('.program-link');
+const join = document.querySelector('.join-link');
+const sponsor = document.querySelector('.sponsor-link');
+const school = document.querySelector('.school-link');
+
+
+const close = () => {
+  ham.classList.toggle('active');
+  navMenu.classList.toggle('active');
+};
+
+about.addEventListener('click', () => {
+  close()
+})
+
+program.addEventListener('click', () => {
+  close()
+})
+
+
+join.addEventListener('click', () => {
+  close()
+})
+
+sponsor.addEventListener('click', () => {
+  close()
+})
+
+
+school.addEventListener('click', () => {
+  close()
+})
+
+
+
+
+
+
+
+
+
+
+
 
 const speakers = [
   {
@@ -26,6 +63,7 @@ const speakers = [
     check: './imgs/check.png',
     image: './imgs/magoha.jpg',
     fullName: 'George Magoha',
+    position: 'Cabinet secretary for Education',
     description: 'Professor George Chiyeth Magoha, is a Kenyan consultant surgeon, academic administrator and technocrat, who serves as the Cabinet Secretary of Education in the Cabinet of Kenya, effective 26 March 2019.',
   },
 ];
@@ -116,3 +154,15 @@ lessBtn.addEventListener('click', () => {
   moreBtn.style.display = 'block';
   lessBtn.style.display = 'none';
 });
+
+
+
+
+
+
+
+
+
+
+
+

@@ -58,7 +58,7 @@ body {
 
 .navmenu.active {
   left: 0;
-  top: 7%;
+  top: 0;
 }
 
 .navmenu li {
@@ -83,12 +83,13 @@ body {
 }
 
 .school-link {
-  padding-top: 4%;
+  padding: 4%;
   border: 4px solid red;
 }
 
-.navmenu li:hover {
+.navmenu li a:hover {
   background: #272a31;
+  color: #ec5242;
 }
 
 .ham {
@@ -157,8 +158,7 @@ body {
   padding-top: 10%;
   padding-left: 4%;
   padding-right: 3%;
-  background: url(./imgs/Nairobi.jpg) no-repeat;
-  background-size: 100% 53.5%;
+  background:  url(./imgs/Ellipse1.png) no-repeat 30% 40%, url(./imgs/yuyu.png) no-repeat 50% 5%, url(./imgs/twitter.jpg) no-repeat 5% 70%, url(./imgs/Ellipse5.png) no-repeat 70% 5%, url(./imgs/Linkedin-icon.jpg) no-repeat 20% 30%, linear-gradient(60deg, rgb(200, 196, 196), rgb(227, 222, 222), rgb(235, 231, 231));
   position: relative;
 }
 
@@ -435,6 +435,7 @@ button:hover {
   .navbar {
     flex-direction: row;
     z-index: 0;
+    background: white;
   }
 
   .brand {
@@ -454,18 +455,15 @@ button:hover {
     height: auto;
     gap: 7%;
     flex-direction: row;
-    margin-left: 7%;
+    padding-left: 17%;
     flex-wrap: wrap;
     font-size: 98%;
-    background-color: green;
-  }
-
-  .navmenu li .items {
-    padding: 0;
+    overflow: hidden;
+    background: white;
   }
 
   .navmenu li {
-    padding: 2%;
+    padding: 3%;
     width: auto;
   }
 

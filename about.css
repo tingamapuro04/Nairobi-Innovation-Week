@@ -20,7 +20,7 @@ body {
 .A-first {
   padding: 1% 3% 4% 5%;
   text-align: center;
-  background: #cbc7c753;
+  background: url(./imgs/Ellipse1.png) no-repeat 30% 40%, url(./imgs/sitar.png) no-repeat 90% 55%, url(./imgs/yuyu.png) no-repeat 50% 95%, url(./imgs/twitter.jpg) no-repeat 5% 70%, url(./imgs/Ellipse5.png) no-repeat 70% 5%, url(./imgs/map.jfif) no-repeat 50% 50%, url(./imgs/Linkedin-icon.jpg) no-repeat 20% 30%, linear-gradient(60deg, rgb(200, 196, 196), rgb(227, 222, 222), rgb(235, 231, 231));
 }
 
 .A-intro h3 {

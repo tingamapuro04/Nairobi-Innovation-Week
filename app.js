@@ -2,8 +2,8 @@ const ham = document.querySelector('.ham');
 const navMenu = document.querySelector('.navmenu');
 
 ham.addEventListener('click', () => {
-  ham.classList.toggle('active')
-  navMenu.classList.toggle('active')
+  ham.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
 
 const about = document.querySelector('.about-link');
@@ -12,44 +12,30 @@ const join = document.querySelector('.join-link');
 const sponsor = document.querySelector('.sponsor-link');
 const school = document.querySelector('.school-link');
 
-
 const close = () => {
   ham.classList.toggle('active');
   navMenu.classList.toggle('active');
 };
 
 about.addEventListener('click', () => {
-  close()
-})
+  close();
+});
 
 program.addEventListener('click', () => {
-  close()
-})
-
+  close();
+});
 
 join.addEventListener('click', () => {
-  close()
-})
+  close();
+});
 
 sponsor.addEventListener('click', () => {
-  close()
-})
-
+  close();
+});
 
 school.addEventListener('click', () => {
-  close()
-})
-
-
-
-
-
-
-
-
-
-
-
+  close();
+});
 
 const speakers = [
   {
@@ -154,15 +140,3 @@ lessBtn.addEventListener('click', () => {
   moreBtn.style.display = 'block';
   lessBtn.style.display = 'none';
 });
-
-
-
-
-
-
-
-
-
-
-
-

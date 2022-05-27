@@ -169,11 +169,10 @@ body {
   text-decoration: none;
 }
 
-
-
 .overley {
-  background: linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
-        url(./imgs/photo18.jfif) no-repeat;
+  background:
+    linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+    url(./imgs/photo18.jfif) no-repeat;
   background-size: cover;
   color: white;
   font-family: 'cocogoose', sans-serif;
@@ -183,8 +182,9 @@ body {
 }
 
 .overley1 {
-  background: linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
-        url(./imgs/photo20.jfif) no-repeat;
+  background:
+    linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+    url(./imgs/photo20.jfif) no-repeat;
   background-size: cover;
   color: white;
   font-family: 'cocogoose', sans-serif;
@@ -376,10 +376,6 @@ body {
     padding-bottom: 5rem;
     width: 75%;
     gap: 1%;
-  }
-
-  .last-events a {
-    height: ;
   }
 
   .A-four {

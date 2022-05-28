@@ -309,7 +309,6 @@ hr {
 .events-head {
   width: 100%;
   text-align: center;
-
 }
 
 .events-hr {
@@ -366,32 +365,6 @@ hr {
   text-align: center;
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .third {
   display: flex;
@@ -732,13 +705,6 @@ button:hover {
   .whole {
     color: var(--third);
   }
-
-  
-
-
-
-
-
 
   .see-more {
     display: none;

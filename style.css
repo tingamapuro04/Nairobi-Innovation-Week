@@ -332,6 +332,7 @@ hr {
 
 .speaker-hr {
   margin: 4%;
+  color: red;
 }
 
 .see-more {
@@ -416,6 +417,10 @@ hr {
 
 .sponsors {
   display: none;
+}
+
+.sponsor-hr {
+  color: red;
 }
 
 .sponyi {
@@ -514,6 +519,16 @@ button:hover {
   .second {
     display: flex;
     flex-direction: column;
+  }
+
+  .second h2 {
+    padding-top: 4%;
+  }
+
+  .second hr {
+    margin: 0 0 2% 0;
+    width: 60px;
+    color: red;
   }
 
   .programs {

@@ -380,7 +380,7 @@ hr {
 .featured {
   margin-top: 10%;
   margin-bottom: 3%;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: rgba(40, 40, 40, 1);
 }
 
@@ -704,6 +704,15 @@ button:hover {
 
   .whole {
     color: var(--third);
+  }
+
+  .featured {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .featured-hr {
+    margin-top: 0;
   }
 
   .see-more {

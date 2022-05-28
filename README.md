@@ -4,6 +4,7 @@
 NAIROBI INNOVATION WEEK
 > Description of the project
 This is a two page website project where i have built a website for a conference carried out in kenya.
+Here is a link to a video where  i give an overview of the project as a whole. [link](https://www.loom.com/share/f44065910d054fefb3f1ed0e4260e6bb)
 
 ## Built With
 
@@ -11,7 +12,7 @@ This is a two page website project where i have built a website for a conference
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://www.loom.com/share/f44065910d054fefb3f1ed0e4260e6bb)
+[Live Demo Link](https://tingamapuro04.github.io/Nairobi-Innovation-Week/)
 
 
 ## Getting Started

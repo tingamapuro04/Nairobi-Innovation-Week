@@ -246,7 +246,9 @@ li .items .item1 {
 }
 
 hr {
-  width: 10%;
+  width: 45px;
+  height: 2px;
+  border: none;
   background: var(--second);
 }
 
@@ -298,6 +300,99 @@ hr {
   width: 9%;
 }
 
+.events {
+  background: url(./imgs/dark.jpg) no-repeat;
+  background-size: cover;
+  color: var(--third);
+}
+
+.events-head {
+  width: 100%;
+  text-align: center;
+
+}
+
+.events-hr {
+  border: none;
+  width: 50px;
+  height: 2px;
+  color: var(--second);
+  margin-left: 47%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.event-list article {
+  display: flex;
+  align-items: center;
+  background: #beb0b071;
+  margin-left: 4%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.event-list article:hover {
+  border: 3px solid white;
+}
+
+.lecture-img1,
+.exhibition-img1,
+.forum-img1,
+.workshop-img1,
+.ignite-img1 {
+  width: 22%;
+  margin-left: 1%;
+  padding: 6%;
+  margin-right: 2%;
+}
+
+.events-head1 {
+  margin-right: 5%;
+  width: 25%;
+  color: var(--second);
+}
+
+.events-para {
+  width: 60%;
+  padding-right: 1%;
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 1.1rem;
+}
+
+.events-last {
+  margin-top: 7%;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .third {
   display: flex;
   flex-direction: column;
@@ -333,6 +428,8 @@ hr {
 .speaker-hr {
   margin: 4%;
   color: red;
+  height: 2px;
+  width: 35px;
 }
 
 .see-more {
@@ -587,6 +684,62 @@ button:hover {
     margin-bottom: 8%;
   }
 
+  .events {
+    padding-top: 6%;
+  }
+
+  .event-list {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .event-list article {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0.4%;
+  }
+
+  .lecture-img1,
+  .exhibition-img1,
+  .forum-img1,
+  .ignite-img1,
+  .workshop-img1 {
+    width: 85%;
+    height: 45%;
+  }
+
+  .events-head1 {
+    width: auto;
+    text-align: center;
+    color: var(--second);
+    margin-bottom: 2%;
+  }
+
+  .events-para {
+    width: auto;
+    text-align: center;
+    margin: 0;
+  }
+
+  .events-last {
+    display: block;
+    margin-top: 6%;
+    padding-bottom: 8%;
+    font-size: 1.3rem;
+  }
+
+  .whole {
+    color: var(--third);
+  }
+
+  
+
+
+
+
+
+
   .see-more {
     display: none;
   }
@@ -624,9 +777,15 @@ button:hover {
   .four {
     display: flex;
     flex-direction: column;
-    background: var(--first);
+    background: rgb(60, 51, 51);
     text-align: center;
     color: var(--third);
+  }
+
+  #sponsor h2 {
+    padding-top: 3%;
+    color: grey;
+    font-weight: 400;
   }
 
   .sponsor-hr {

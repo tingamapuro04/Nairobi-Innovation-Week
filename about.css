@@ -1,0 +1,413 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+:root {
+  --first: #272a31;
+  --second: #ec5242;
+  --third: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  left: 0;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  width: 98vw;
+}
+
+.A-first {
+  padding: 1% 3% 4% 5%;
+  text-align: center;
+  background: url(./imgs/Ellipse1.png) no-repeat 30% 40%, url(./imgs/sitar.png) no-repeat 90% 55%, url(./imgs/yuyu.png) no-repeat 50% 95%, url(./imgs/twitter.jpg) no-repeat 5% 70%, url(./imgs/Ellipse5.png) no-repeat 70% 5%, url(./imgs/map.jfif) no-repeat 50% 50%, url(./imgs/Linkedin-icon.jpg) no-repeat 20% 30%, linear-gradient(60deg, rgb(200, 196, 196), rgb(227, 222, 222), rgb(235, 231, 231));
+}
+
+.A-intro h3 {
+  font-size: 1.5rem;
+  color: var(--second);
+  margin-bottom: 3%;
+  font-weight: 350;
+}
+
+.A-intro h2 {
+  font-size: 3.7rem;
+  color: var(--second);
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 900;
+  margin-bottom: 10%;
+  padding: 0 10% 2% 10%;
+}
+
+.pages-a {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  margin-left: 30%;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.pages-a li {
+  list-style: none;
+}
+
+.pages-a > li > .about-me {
+  color: var(--second);
+}
+
+.hamb {
+  background: #cbc7c753;
+}
+
+.short-desc {
+  color: #36454f;
+  background: white;
+  padding: 4% 2%;
+  line-height: 1.7rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin-bottom: 9%;
+}
+
+.long-desc {
+  display: none;
+}
+
+.event-email {
+  line-height: 1.8rem;
+  color: #36454f;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.email-line a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--first);
+}
+
+.logo-make {
+  text-align: center;
+}
+
+.logo-make h2 {
+  margin: 12% 0 0 0;
+  padding: 0 10%;
+  font-size: 1.7rem;
+  font-weight: 540;
+}
+
+.para1 {
+  display: none;
+  padding: 0 12%;
+  color: rgba(128, 128, 128, 0.989);
+}
+
+.hr-logo {
+  margin: 1% 0 0 45%;
+  color: var(--second);
+}
+
+.para2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  padding: 0 7%;
+  color: var(--third);
+  margin-bottom: 10%;
+}
+
+.logo-img {
+  margin: 4% 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.7px solid rgba(128, 128, 128, 0.39);
+  background: rgba(255, 255, 255, 0);
+  height: 50%;
+  padding: 4%;
+}
+
+.logo-img img {
+  width: 55%;
+}
+
+.A-third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.A-third h3 {
+  margin-top: 15%;
+  font-size: 1.4rem;
+  font-weight: 550;
+  margin-bottom: 2%;
+}
+
+.A-third p {
+  margin: 2% 2%;
+  padding: 0 8%;
+  line-height: 1.4em;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.last-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.last-events a {
+  width: 70%;
+  margin-top: -7%;
+  text-decoration: none;
+}
+
+.overley {
+  background:
+    linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+    url(./imgs/photo18.jfif) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  height: 14em;
+  width: 100%;
+}
+
+.overley1 {
+  background:
+    linear-gradient(15deg, rgba(235, 144, 6, 0.395), rgba(255, 0, 0, 0.532), rgba(0, 0, 0, 0.203)),
+    url(./imgs/photo20.jfif) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  height: 14em;
+  width: 100%;
+}
+
+.prev-year {
+  padding-top: 15%;
+}
+
+.A-sponsors img {
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 5%;
+}
+
+.last-events > a > img {
+  height: 14em;
+}
+
+.A-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--first);
+  color: var(--third);
+}
+
+.A-sponsors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.A-footer {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  padding: 9%;
+}
+
+.theme {
+  font-weight: 600;
+  color: var(--first);
+  font-size: 1.2rem;
+}
+
+.footer-para {
+  display: none;
+}
+
+.last-events > a > img:hover {
+  transform: translate(5px, -15px);
+}
+
+.pages-a a:hover {
+  color: var(--second);
+}
+
+.social-head a:hover {
+  transform: skewX(25deg);
+}
+
+@media all and (min-width: 768px) {
+  .social-head {
+    display: inline-block;
+    background-color: var(--first);
+    width: 100%;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    font-size: 105%;
+    font-weight: 600;
+    margin-right: 10%;
+    padding-right: 5%;
+  }
+
+  .nav-list li {
+    padding: 0.5% 0;
+    list-style: none;
+  }
+
+  .social-head a {
+    text-decoration: none;
+    color: var(--third);
+  }
+
+  .hamb {
+    display: none;
+  }
+
+  .pages {
+    display: flex;
+    justify-content: center;
+  }
+
+  .uon-logo-f {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .pages-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0;
+    align-items: center;
+    margin-right: 4%;
+    width: 60%;
+  }
+
+  .pages-a a {
+    display: inline-block;
+  }
+
+  .campaign {
+    border: 5px solid var(--second);
+    padding: 10%;
+  }
+
+  .pages-a li .campaign {
+    color: var(--second);
+  }
+
+  .A-first {
+    text-align: center;
+  }
+
+  .A-intro h3 {
+    display: none;
+  }
+
+  .A-intro h2 {
+    margin: 8% 14%;
+    margin-bottom: 30px;
+  }
+
+  .short-desc {
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 8%;
+    padding: 2% 5%;
+  }
+
+  .long-desc {
+    display: inline;
+  }
+
+  .logo-make {
+    text-align: center;
+  }
+
+  .logo-make h2 {
+    margin-top: 0;
+    padding-top: 7%;
+  }
+
+  .para1 {
+    display: block;
+    margin: 2% 10%;
+    line-height: 1.5rem;
+  }
+
+  .para2 {
+    display: none;
+  }
+
+  .A-third {
+    border: 1px solid grey;
+  }
+
+  .A-third h3 {
+    margin-top: 42px;
+    letter-spacing: 1px;
+  }
+
+  .last-events {
+    margin-top: 2.9rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    width: 75%;
+    gap: 1%;
+  }
+
+  .A-four {
+    display: none;
+  }
+
+  .A-footer {
+    background: var(--first);
+    padding: 4%;
+  }
+
+  #theme {
+    margin-left: 24%;
+    margin-right: 4%;
+  }
+
+  #theme img {
+    width: 130%;
+  }
+
+  .theme {
+    color: var(--third);
+  }
+
+  .last_info {
+    width: 60%;
+    margin-bottom: 1%;
+    color: var(--third);
+  }
+
+  .footer-para {
+    display: block;
+    margin-top: 12px;
+  }
+}

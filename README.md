@@ -1,6 +1,5 @@
 
 
-# Project Name
 NAIROBI INNOVATION WEEK
 > Description of the project
 This is a two page website project where i have built a website for a conference carried out in kenya.

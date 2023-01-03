@@ -38,7 +38,7 @@ After openning the files, open the terminal and run this command npm start
 
 ## Authors
 
-👤 **Author1**
+👤 **Alphonce Mobutu**
 
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
 - Twitter: [@twitterhandle](https://twitter.com/alphonce_mobutu)
